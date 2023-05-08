@@ -63,14 +63,14 @@ public class Prodotto {
 	
 	public float getPrezzoIva() {
 		
-		float prezzoIva = this.prezzo * (1 + this.iva / 100);
+		float prezzoIva = this.prezzo * (1 + this.iva / 100f);
 		
 		return prezzoIva;
 	}
 	
 	public String getNomeCompleto() {
 		
-		String nomeCompleto = this.codice + this.nome;
+		String nomeCompleto = this.codice + "-" + this.nome;
 		
 		return nomeCompleto;
 		

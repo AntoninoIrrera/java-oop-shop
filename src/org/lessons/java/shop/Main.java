@@ -23,6 +23,9 @@ public class Main {
 			System.out.println(prodotti[i].getCodicePadLeft());
 		}
 		
+		System.out.println(prodotti[0].getPrezzo());
+		
+		System.out.println(prodotti[0].getPrezzoIva());
 		
 //		System.out.println(Arrays.asList(prodotti));
 		
