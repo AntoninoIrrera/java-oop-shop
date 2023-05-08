@@ -61,13 +61,13 @@ public class Prodotto {
 		return this.prezzo;
 	}
 	
-	public float getPrezzoIva() {
+	public String getPrezzoIva() {
 		
 		float prezzoIva = this.prezzo * (1 + this.iva / 100f);
 		
-		prezzoIva = Math.round(prezzoIva*100)/100;
+		String prezzoIva1 = String.format("%.2f", prezzoIva);
 		
-		return prezzoIva;
+		return prezzoIva1;
 	}
 	
 	public String getNomeCompleto() {
