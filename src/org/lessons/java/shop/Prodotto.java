@@ -65,6 +65,8 @@ public class Prodotto {
 		
 		float prezzoIva = this.prezzo * (1 + this.iva / 100f);
 		
+		prezzoIva = Math.round(prezzoIva*100)/100;
+		
 		return prezzoIva;
 	}
 	
