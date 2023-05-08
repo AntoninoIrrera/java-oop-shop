@@ -63,7 +63,7 @@ public class Prodotto {
 	
 	public float getPrezzoIva() {
 		
-		float prezzoIva = this.prezzo * 1.22f;
+		float prezzoIva = this.prezzo * (1 + this.iva / 100);
 		
 		return prezzoIva;
 	}
