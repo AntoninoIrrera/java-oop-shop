@@ -46,7 +46,7 @@ public class Conto {
 		
 		saldoArrivare = this.saldo - sommaDaPrelevare;
 		
-		if(this.saldo > 0 && saldoArrivare > 0) {
+		if(this.saldo > 0 && saldoArrivare >= 0) {
 			
 			this.saldo -= sommaDaPrelevare;
 			

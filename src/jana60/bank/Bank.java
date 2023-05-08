@@ -14,12 +14,14 @@ public class Bank {
 		
 		Conto contoUtente = new Conto(rnd.nextInt(1,1000),nome);
 		
-		System.out.println("bene contro creato, ora decidi cosa fare \n 0-versare somma \n 1-prelevare somma \n -2 informazioni conto \n -3 uscire");
-		int sceltaUtente = sc.nextInt();
+//		System.out.println("bene contro creato, ora decidi cosa fare \n 0-versare somma \n 1-prelevare somma \n -2 informazioni conto \n -3 uscire");
+//		int sceltaUtente = sc.nextInt();
 
+		int sceltaUtente = -1;
+		
 		while(sceltaUtente != 3) {
 			
-			System.out.println("ora decidi cosa fare \n 0-versare somma \n 1-prelevare somma \n -2 informazioni conto \n -3 uscire");
+			System.out.println("bene contro creato, ora decidi cosa fare \n 0-versare somma \n 1-prelevare somma \n -2 informazioni conto \n -3 uscire");
 			sceltaUtente = sc.nextInt();
 		
 			
